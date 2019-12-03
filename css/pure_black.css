@@ -1,0 +1,83 @@
+/*MasonNotes Pure Black Mode*/
+body {
+    background: #242424;
+    color: #e7e7e7;
+}
+textarea {
+    background: #474747;
+    color: #e7e7e7;
+    border: #000000;
+    box-shadow: 0 7px 11px #0000003d, 0 12px 45px #00000030;
+}
+button {
+    background-color: #242424;
+    color: #e7e7e7;
+    box-shadow: 0 12px 16px 0 #0000003d, 0 17px 50px 0 #00000030;
+}
+button:hover {
+    background-color: #474747;
+    box-shadow: none;
+}
+::selection {
+    background: #474747;
+}
+::selection:window-inactive {
+    background: #242424;
+}
+
+/* ------- Scrollbar - Chrome ------- */
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 7px #333333; 
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #242424;
+}
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #000000; 
+}
+
+ /* ------- Classes ------- */
+.pod {
+    background-color: #000000;
+    box-shadow: 0 12px 16px #0000003d, 0 17px 50px #00000030;
+}
+.settings{
+    color:#e7e7e7;
+}
+.footer {
+    color:#e7e7e7;
+}
+
+/* ------- Dropdown ------- */
+.dropbtn {
+    background-color: #474747;
+}
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #333333;
+}
+.dropdown-content {
+    background-color: #333333ea;
+}
+
+.dropdown-header h1 {
+    color: #6787b5d7;
+}
+
+.dropdown-body {
+    background-color: #000000d2;
+}
+.dropdown-body p {
+    color: #526ea3;
+}
+.dropdown-body hr {
+    background-color: #474747d7;
+}
+.dropdown-body li {
+    color: black;
+}
+.dropdown-body li:hover {
+    background-color: #474747d7;
+}

@@ -1,0 +1,60 @@
+<!-- Created by Mason Smith while bored in between calls -->
+<!DOCTYPE html>
+<html>
+<title>Notes Widget</title>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/dark_mode.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Muli:Muli:400,600,700,800,900">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Mono"> <!-- only on text area element -->
+</head>
+
+<body>
+<div class="container">
+    <div class="top-banner" >
+        <!-- <button onclick="openForgotPassword()" class="forgotPasswordBtn" title="Forgot Password"></button> -->
+        <img src="img/pctyLogo.png" alt="Paylocity logo" id="pctyLogo" class="center">
+        <!-- <button onclick="showSettings()" class="dropbtn" title="Settings"></button> -->
+    </div>
+
+   <!-- <div class="dropdown">
+        <div id="settingsDropdown" class="dropdown-content">
+            <div class="dropdown-header">
+                <h1>Settings</h1>
+            </div>
+            <div class="dropdown-body">
+                <ul id="horizontalList">
+                    <p>Theme:</p>
+                    <li id="lightMode"><img src="img/lightMode.png" alt="Light Mode icon"></li>
+                    <li id="darkMode"><img src="img/darkMode.png" alt="Dark Mode icon"></li>
+                    <li id="pureBlackMode"><img src="img/pureBlack.png" alt="Black Mode icon"></li>
+                    <hr>
+                    <p class="footer">Mason Smith - 2018</p>
+                </ul>
+            </div>
+        </div>
+    </div> -->
+    
+    <div class="container-body">
+        <div class="pod">
+            <button id="caresButton" type="button" onclick="fillCares()">
+                Contact info
+            </button>
+            <textarea id="caresTextArea" rows="4" cols="32" placeholder="Describe yourself here..."> </textarea>
+        </div>
+    
+        <div class="pod">
+            <button id="notesButton" type="button" onclick="fillNotes()">
+                Notes
+            </button>
+            <textarea id="notesTextArea" rows="15" cols="32" placeholder="Notes:"></textarea>
+        </div>
+    </div>
+    <p class="footer">Mason Smith - 2019</p>
+</div>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>

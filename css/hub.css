@@ -1,0 +1,110 @@
+/* ------- Main styles ------- */
+body {
+    font-family: 'Muli', sans-serif;
+    display: block;
+    margin: auto;
+    box-shadow: inset 0 20px 20px -20px rgba(0,0,0,0.8); /*shadow at top of page*/
+}
+p {
+    font-size: 12px;
+}
+h1 {
+    font-size: 20pt;
+    text-align: center;
+}
+h2 {
+    font-size:15pt;
+    text-align: center;
+}
+button {
+    font-size:18px;
+    font-weight: 600;
+    padding: 12px;
+    margin: 6px;
+    border: none;
+    float: left;
+    border-radius: 6px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition-duration: .04s;
+    display: inline-flex;
+    align-items: center; 
+}
+button img {
+    margin: 0 12px 0 0;
+    border-radius: 6px;
+}
+
+button:active {
+    outline: none;
+    border: none;
+}
+
+::selection {
+    border-radius: 6px;
+}
+::selection:window-inactive {
+    border-radius: 6px;
+}
+
+/* ------- Scrollbar - Chrome ------- */
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+/* track */
+::-webkit-scrollbar-track {
+    border-radius: 5px;
+}
+/* handle */
+::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+}
+
+
+/* ------- Classes ------- */
+#top-banner {
+    width: 100%;
+    height: 125px;
+    position:absolute;
+    float: left;
+    top:0;
+    box-shadow: inset 0 20px 20px -20px rgba(0,0,0,0.8);
+}
+.pctyLogo {
+    top:50px;
+}
+.container {
+    top: 0px;
+    width:auto;
+    float: left;
+}
+.container-body {
+    position:relative;
+    top: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+}
+.pod {
+    width:auto;
+    padding: 8px;
+    margin: 6px;
+    border-radius: 6px;
+    float: left;
+}
+.footer {
+    float: right;
+    margin: 1px 8px;
+    padding: 1px;
+    position:absolute;
+    bottom:0;
+    right:0;
+}

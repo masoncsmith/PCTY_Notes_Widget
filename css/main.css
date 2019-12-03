@@ -1,0 +1,209 @@
+/* ------- Main styles ------- */
+body {
+    /* font-family: 'FuturaBT-Bold','FuturaBold',Arial,Verdana,sans-serif; */
+    font-family: 'Muli', sans-serif;
+    display: block;
+    margin: auto;
+    box-shadow: inset 0 20px 20px -20px rgba(0,0,0,0.8);
+}
+p {
+    font-size: 12px;
+}
+textarea {
+    width: auto;
+    float: left;
+    margin: 4px;
+    padding:3px;
+    border-radius: 6px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 14px;
+    word-wrap:normal;
+    box-shadow: 0 7px 11px #0000003d, 0 12px 45px #00000030;
+}
+button {
+    font-size:16px;
+    font-weight: 600;
+    padding: 10px 18px;
+    margin: 4px 2px;
+    border: none;
+    float: left;
+    border-radius: 6px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition-duration: .04s;
+}
+ button:active {
+    outline: none;
+    border: none;
+}
+::selection {
+    border-radius: 6px;
+}
+::selection:window-inactive {
+    border-radius: 6px;
+}
+
+/* ------- Scrollbar - Chrome ------- */
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+/* track */
+::-webkit-scrollbar-track {
+    border-radius: 5px;
+}
+/* handle */
+::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+}
+
+
+/* ------- Classes ------- */
+.container {
+    top: 0px;
+    width:auto;
+    float: left;
+}
+.container-body {
+    position:relative;
+    top: 150px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+}
+.pod {
+    width:auto;
+    padding: 8px;
+    margin: 6px;
+    border-radius: 6px;
+    float: left;
+}
+.pctyLogo {
+    height: 121px;
+    width: 173px;
+    background: url("../img/pctyLogo.png") no-repeat center;
+}
+.settings {
+    float: right;
+    margin: 1px 8px;
+    padding: 1px;
+    position:absolute;
+    height: 25px;
+    width: 25px;
+    top:8px;
+    right:8px;
+}
+.footer {
+    float: right;
+    margin: 1px 8px;
+    padding: 1px;
+    position:absolute;
+    bottom:0;
+    right:0;
+}
+
+/* ------- dropdown ------- */
+.top-banner {
+    width: 100%;
+    height: 125px;
+    position:absolute;
+    float: left;
+    top:0;
+    box-shadow: inset 0 20px 20px -20px rgba(0,0,0,0.8);
+}
+.forgotPasswordBtn {
+    height:40px;
+    width:40px;
+    padding: 10px;
+    margin: 6px;
+    position: absolute;
+    float: right;
+    top: 24px;
+    left: 12px;
+    border-radius: 50px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.4);
+    background: url("../img/forgotPassword.png") no-repeat center;
+}
+.dropbtn {
+    height:40px;
+    width:40px;
+    padding: 10px;
+    margin: 6px;
+    position: absolute;
+    float: right;
+    top: 24px;
+    right: 12px;
+    border-radius: 50px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.4);
+    background: url("../img/settingsIcon.png") no-repeat center;
+}
+.dropdown {
+    position: relative;
+    float: right;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    margin: 6px;
+    top: 70px; /*top renders below button- hard coded at 46px*/
+    right: 12px; /*renders to right side lines up with right side of button*/
+    min-width: 180px;
+    border-radius: 6px;
+    overflow: auto;
+    text-align: center;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.4);
+    z-index: 1;
+}
+.dropdown-header h1 {
+    margin: 18px 6px 6px 6px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.dropdown-body {
+    box-shadow: 0 10px 10px 10px rgba(0,0,0,0.4);
+    border-radius: 6px; /*<<<doesnt do anything rn idk why*/
+    /*color for background; separate from grouped dropdown property*/
+}
+.dropdown-body p {
+    margin: 6px;
+    font-size: 17px;
+    font-weight: 500;
+    text-align: left;
+}
+.dropdown-body hr {
+    width: 95%;
+    margin-top: 6px;
+}
+.dropdown-body ul {
+    list-style-type: none;
+    padding: 6px;
+    display: inline-block;
+    overflow: hidden;
+}
+.dropdown-body li {
+    padding: 6px;
+    margin: 6px;
+    border-radius: 50px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    float:left;
+}
+.dropdown-body li img {
+    width: 25px;
+    height: 25px;
+}
+.show {
+    display: block;
+}
