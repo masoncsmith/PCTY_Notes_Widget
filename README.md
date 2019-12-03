@@ -1,9 +1,10 @@
-# PCTY_Notes_Widget
+# Paylocity Notes Widget
+#### *PCTY_Notes_Widget*
 ### Mason Smith
 
-Simple notes widget for notes during calls.
-HTML/CSS/JS practice
+Simple notes widget for notes during calls. <br>
+HTML/CSS/JS practice<br>
 
-![Dark mode screenshot](/screenshots/darkModeScreenshot.png) - done
-![Light mode screenshot](/screenshots/lightModeScreenshot.png) - unfinished
-![Black mode screenshot](/screenshots/blackModeScreenshot.png)- unfinished
+![Dark mode screenshot](/screenshots/darkModeScreenshot.png) - done <br>
+![Light mode screenshot](/screenshots/lightModeScreenshot.png) - unfinished <br>
+![Black mode screenshot](/screenshots/blackModeScreenshot.png)- kinda done
