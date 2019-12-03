@@ -1,5 +1,4 @@
-# Paylocity Notes Widget
-#### *PCTY_Notes_Widget*
+# Paylocity Notes Widget | */PCTY_Notes_Widget*
 ### Mason Smith
 
 Simple notes widget for notes during calls. <br>
