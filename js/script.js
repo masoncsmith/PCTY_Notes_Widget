@@ -5,9 +5,9 @@ var caresTA = document.getElementById("caresTextArea");
 var notesTA = document.getElementById("notesTextArea");
 
 /* ----------- Notes Hub ----------- */
-function openMainNotes() {
-  window.open('MasonNotes.html', 'mywindow', 'toolbar=no,.focus()location=no,directories=no,status=no,menubar=no,scrollbars=yes,copyhistory=yes,resizable=no,width=333,height=975,');
-  window.open('MasonNotes.html', 'mywindow', 'toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,copyhistory=yes,resizable=no,width=800,height=600');
+function openNotesWidget() {
+  window.open('NotesWidget.html', 'mywindow', 'toolbar=no,.focus()location=no,directories=no,status=no,menubar=no,scrollbars=yes,copyhistory=yes,resizable=no,width=338,height=600,');
+  window.open('NotesWidget.html', 'mywindow', 'toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=yes,copyhistory=yes,resizable=no,width=800,height=600');
 }
 
 function openTestNotes() {
@@ -47,16 +47,6 @@ window.onclick = function(event) {
   }
 }
 
-//theme change
-function openLightMode() {
-  onclick="location.href='MasonNotes_Light.html'";
-}
-function openDarkMode() {
-
-}
-function openBlackMode() {
-  
-}
 
 function fillCares() {
   caresTA.value = " Company ID: \n Name: \n EE: ";
